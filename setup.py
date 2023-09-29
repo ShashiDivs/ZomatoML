@@ -10,9 +10,8 @@ AUTHOR_EMIL = "sasi@gmail.com"
 REQUIREMENTS_FILE_NAME = "requirements.txt"
 
 HYPHEN_E_DOT = "-e ."
-# Requriments.txt file open
-# read
-# \n ""
+
+
 def get_requirements_list()->List[str]:
     with open(REQUIREMENTS_FILE_NAME) as requriment_file:
         requriment_list = requriment_file.readlines()
