@@ -4,3 +4,7 @@ constantfile-->configuration-->dataingestion
 
 #For Data Transformation
 constantfile-->configuration-->util files->data Transformation
+
+#Model Training
+
+1. constant -> Configuration -> Model Training-> Utilfile
